@@ -1,0 +1,140 @@
+#tit {
+    text-align: center;
+    color: aqua;
+}
+
+h3 {
+    text-align: center;
+    color: aqua;
+}
+
+#hall {
+    margin-left: 600px;
+}
+
+body {
+    background-color: #038eff;
+}
+
+#sport {
+    background-color: black;
+}
+
+#aboutMe iframe {
+    width: 100%;
+}
+
+.aboutMe_1 h3 {
+    display: inline;
+}
+
+.aboutMe_1 a {
+    text-shadow: none;
+}
+
+input {
+    background: grey
+}
+
+.travel_mainDiv {
+    border: 1px solid aqua;
+    padding-left: 0px;
+    padding-right: 0px;
+    float: none;
+}
+
+.travel_mainDiv img {
+    width: 100%;
+}
+
+.movie_head {
+    font-size: 20.34543px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+    padding: 6px 22px;
+
+}
+
+.movie_head i {
+    float: right;
+
+}
+
+.movie_text span {
+    color: aqua;
+}
+
+.environment_li {
+    margin-top: 14px;
+}
+
+.header_entrepreneur {
+    line-height: 2;
+}
+
+.book {
+    cursor: pointer;
+}
+
+.book hr {
+    margin-bottom: 10px;
+}
+
+.modal-content {
+    margin-top: 100px;
+}
+
+.img_modal {
+    display: inline-block;
+}
+
+.p_modal {
+    margin-top: 10px;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+
+
+
+
+#map iframe {
+    width: 50%;
+    float: left;
+    padding-top: 5px;
+}
+
+#details {
+    display: inline;
+}
+
+#bok {
+    width: 300px;
+    height: 150px;
+}
+
+#cool {
+    width: 400px;
+    height: 160px;
+}
+
+#spa {
+    width: 1000px;
+}
+
+#line {
+    color: black;
+}
+
+#line {
+    background-color: white;
+}
+#sum{
+width: 400px;
+height:200px ;    
+}
+ Line no. 156 next section

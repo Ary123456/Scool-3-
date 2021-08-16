@@ -1,0 +1,191 @@
+<html>
+
+
+
+<head>
+    <title>
+        My school webpage</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Caravonica state school</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#event">EVENTS</a></li>
+                <li><a href="#fac">FACILITIES</a></li>
+                <li><a href="#new">WHAT'S NEW</a></li>
+                <li><a href="#school website">SCHOOL WEBSITE</a></li>
+                <li><a href="#contact us">CONTACT US</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <div class="announcement">
+        <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+            <h3>**Please feel free to ask queries at officestaff@caravonicass.eq.edu.au**</h3>
+        </marquee>
+    </div>
+    <br><br><br><br>
+
+    <section id="home">
+        <h1 id="tit">
+            HOME
+        </h1>
+        <img id="hall" src="https://speedfloor.com.au/img/caravonica_state_school.png">
+        <h3>Caravonica state school hall</h3>
+    </section>
+    <br><br>
+    <hr class="width=100%;" id="line">
+    <br><br>
+    <section id="event">
+        <h1 id="tit">
+            EVENTS
+        </h1>
+
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#sport"><span></span>Sports day<i class="fa fa-sort-desc"></i></div>
+        <div id="sport" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"> <img src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/7/10/1436545623971/primary-school-sports-day-009.jpg?width=445&quality=45&auto=format&fit=max&dpr=2&s=df213c50b247629cf6ccc8c431921e16" class="img-responsive img-thumbnail"> </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+
+                <h2>The 2021 sports day was amazing! There were sprints, long jump, shot put and novelty events. The green team [Cascades won again].</h2>
+            </div>
+
+        </div>
+        <br><br> <br><br>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#party"><span></span>Behaviour party<i class="fa fa-sort-desc"></i></div>
+        <div id="party" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFBgUFRQZGBgaGhsZGhkbGRwbGRgaGRoaGhoaHBsbIS0kGx0qHxgaJTclKi4xNDQ0GiM6PzoyPi0zNDEBCwsLEA8QHxISHzMqIyo0MzMzMzM0MzM1MzMzMzMzMzMzNTM0MzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM//AABEIARQAtwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAFAAIDBAYBBwj/xABHEAACAQIEAwUFBAcGBQMFAAABAhEAAwQSITEFQVEGImFxgRMykaGxQlLB0QcUU4KSovAVI2Jy0uEzQ1Rj8RZE8iQ0k7LC/8QAGgEAAgMBAQAAAAAAAAAAAAAAAgMAAQQFBv/EAC8RAAICAQMDAgQGAgMAAAAAAAABAhEDEiExBEFREyIUYYGRBRUyUnGhI0Kx0fD/2gAMAwEAAhEDEQA/APZqVKlVEFVXHGFnx/A1aqpxA9z1FQhjsbawjWcQuIcW4xLm28EsrMitoAJIOsjnHgDXl+MvGSlvUzEn3SOuuvyrc9qEGW6Du19GQc2/ukBgep+VQ2eAYdMI9x7me8Yyqh/4Z5AruxPMn06kZpMpGCfCFFAOx2NOwtyDlP50dawCCjyB81PWguJwxRo5jbxFIuxq3CVtpH9fjUy/1H5VSwV2QKILrS2iHAv9DT5GuZP6/wBqkArpWqIVbq/+Roaj4Sk4hPJvkpqzcSncAt//AFAPRWPyj8aJcE7kFwTcY/4jr61Mif8AmlbtzU62/CowhiinD+v6NS5aY5iqLK2MvZR47AcyTsBQzD2C7c21EgH32Mwq+G4npJ5gVLd/vGj4E7KvN/qB69RR3BYUW1BjvkQBzRTvP/cbc9NBRcIHll/hN9cOZyK78z9kcoXwA0FE27T3/shF+f1FBFWu0OoF40ws3aDEt/zY8lj8aVZzFcQCaASfLQUqvUytCPXsbxFEVoZSw0gMJB8vWs7Y7WOfsLAOUsdyeRgHbXpQL9aTViddCTG4HpUNnELcZraSIEyJ2bfyO9NeXwL3NLf7UvHdtg6+O3WJqPBcZa7cCs8g5u7liIE/Ks29uQVW2fMtsfInbyFWeDP7LEJbgEGQW2EweU9aqORvYruN44B+uO0kQlvKSM0Zg06bfZNU7ju3/DVmiRnYd1I96W0AHOjfGcKf10qSqE2kIJJC913EyAeR59KqXbRt3GS4wZRBzq0ggwZJjQwRrptvQ5LuwiLi2Ft+zUzLZQc4HdPhPSgOLwRYZGEOu0/Q+BrRWLoMSzKBrAAIgaT5RTMbbDzcNwNsAQI08fiOfSl3Qd0YVEKNqI1gjoaL2ACKs4/A55YDvAaj7wH4iquAEHKfTxFE9w0WgldyVaS3Uy2PChLBty3/AF/W1N4UsXLh6W2+o60TfDmocHYg3P8AIB/E3+1WmCVbVnSrAtVcTDADXSmvibKe9cQfvAn4CowisU8KGY5ie6OfxM7AeJ/M8qI3uMWTomdz0RCT84pcJwLXWzMpUSS0ggqD3TPRtI8ADzM1aTBbK/DcHHfaDtHQkdP8C8upE7AVdbKN2APid61K8Gwoh2VQCBrcc5IgbKxyjyAqvxHtXgcFb/u1DttFtFWT5mNPHWqaZFICJYY+7bdvEIxHxAiocdhLiZcy5A2bSe9CxvGw186EcT/SbiHYeyRLYmTPfY+BLaR5AHxqinbW5cuZr6hhEDIIyjyJ1qenKroLUjQ2lI0GgrlTYW6rqGQyp1BpUmwybEKgEFIg6Ayu3PofpUdpG0VVgQAomDpueke9T+J3G2IkRmjeKqrjgEWRDGQTuTpMR5GmU6MzRNfx5BybEGI1ETtM7HzrM4ntV7G7KJna2SJY93MJH2dWG/T8aKXeMLZVmcgGDkkTJgwNOYNedOwOgk+Q+s07FDyTSajG9ubt5w15FJy5JQlDlzZuZMnetVwvGJcto9u4xGoIJGZTuRliJmB69K8nZPOjHZnGFLmTNC3CFJmIP2Z6bx60zJG1aJTR6ZcXMuikgb7CSN9DvqKYiZiAG03jmQvnoR+dMFtiFFtScmkwx1JJ5bE/hRPBcMYAF7oeR7qKA0xrBO0Hefu/DC5pdyclCzaDMFTRmYe82xJgctNarYrCgOxUQVPeX7p/I7efpRJ8OUvW7aJKq6EnqS3ezROojrz2qLtHg3W77RDlH94xYbky+ZI2IyhTqDuKdD3RtFxlTB1rjK7LauMfBYFTDG32Erhgo3l3+o3qfhTDLmBkfZJWCu+2snl1OvrXMTipJUd7kNxPhptQ3uFqIrdvF3BJuWrY5QpY/wA2lR3sEyW7mbEF2f2feEW2GUsxURMDVdfGrd5GCscy6fZIOsCSajuKoSWaAf8AFB101kUOugXIEYbhodiDbdzB1ZyQJBgmKLWuH27SMGsh3ncKN9AqhtTuRO1UOIXXQIC6KgbYApMiQxgSdoqrbxLG4qlm1JHd1BImXDtEgDTSORFMTsJNLk3vCsPm1jQbf1A6H4Chfafhz27V50I9k5TOpJn3iZA2ks3yFaPs+ijDo090gnN11O0deQ8qh7cwMHkGga5bX4mdfhVppNJFVe47Cdl7ChS4a40DV2022CiBHnNeQds8f7fEMyBEsp3LQ7qKUH2wCROY6z0yjlWg7d/pCNwtYwjFUEq1wbvyOXonjz8q85sWDcMsTrz1NMxwa9zC2eyONbT9onxY/Ra7aCcri+oYfPL+FWbnDAu2tVHwpXX6U1STI4tdjfdjr3906H7JDDmMr9CNxIPxpUI7E45VZg7ACDrPNiCAenuMf3vGlWTLD3PYNNUaG920wytKI50gmFGnhLVSxPa/C3DLW7gP3oSD0JANYa6w6r/EPxqIkdR/EPzrT6URVsPdqL6vdtMjZrbJKMRAJLsG8oIAPTnSwvCiVLkefppQKzbBZZ90sJI2EkAn4Vv39n7IIDopIaN9ASB8YqS9qSG4o3dmSuWQWgAjlrtQ+7hyjdOhrRW1VjJ0P9b0PxtkyFmZ708wNdPL8qkXvRMkUlZ6P+jvHPiLLIUJe0QWYD/iK4bLmI1BlW1rV3sNckxbdiQQDlMabaaAfjWe/RRwU+xu3c7KHdVEcwgJnUbS5Hoa339mH9q/y/KkT6WLk2hWp0ZFOCYhri3HzjK4OiwMoI0I56Dl0qxjsDeuMwRSyZ2BBkDKdGUEa+PiRuK0x4aRr7V/l+VV8NgC4ZhcZZY6CPyoliajpQFGTt8Hu2kIyMF3LMwM66ggDx3rNY8m2/caNZPUDceu29b/AI+qWrbBrsmPcJALA6QBG5MD1ryrinFWZ3jTLvAB+u/ypTxSi9jd08cag3Jbm34NhTeUn2ecqYJLAaEAggE+B+HjRTEcLucrGadD30jTUaE9Y0FYrs72r9kpJthswH2mQGNj3Z13+PwNf+vB+wX/API9V6KfNmbIlq9vBW432Xxl0nJZGwg506d4AFo35mqmC7J40Zc2FUlQQC1y2UWRq2TOczEk6ERNFT250n2CwSR778oP4/KgfFu3GKuf/b21tqJ7wlmbxGcwB6U6MNqFaWzX4TC4nui6IaR3TeXKuaCwCq+kagQCfGNK7+lW9lwQA3NwH0yOJ+dZbsp2pa7dt271lHdnRQ5DK85hqQDBPPYbVrv0iYX2y2rMx7Rys9JUifSapQUWGj5/ugkxWgtYRsqgMQNNAB6zQq7hmtXClxSrIxVxGqkaH4UVfFXCo9kDlA95hEzAGWIgRGpj406d9g8ddxYm2S0GqWIsZdAsaenSrOMsszL32HUKZ1852pl604Ql3DKokad6ehNAthr/AIB9u8UByx0IIBB58/L5VyqzXC8TGnT60qdQjUjt6yQB41y1gywJ6VoMfw5UILXFnpoIHIAU61aCrpQeptsGse+5mXtsjRsaI4HizodRmB0Op1q3iMMtxSQysQDEb+tA0OtEmpIF3B7HoPB+DtirYu28urrbhmykO+wMA6aitXwn9GevtMXeECZVJ2HV2AgQOQnxFZ79GjkLcY+6t3C68pFwz8j9K9X4/wAXtWLFxrjqCVYIp+02XQQNdyJ6TUVJ0VKblyYLiP6QzaPs8JaRbSgKuYEmFmIAMD51f4D+kk3HVL9tQGIGdSRlkxJUzI8jXk+PuidDUeCxUGiAPqQ1T4cO6w/xH6Ch3ZztBaxNhLgcBoCupIBDACdOh3B6GrOBxaKHzOAc2xOsZFMx8fhUbRDy/tJxK4+KYsGIW86KiCfcbKCfPTWfKs/jm/vHhd2y7bxVrtNxRQ1x7LuuZ3cAHdnbV3PM5dhsKDPiXchlJg6+vWlT3dmtXHZmqwHAZwX6wUEl1W2CSO6ufPI21IA/dO1VMRh7eVnVNM6qoPMZWLTBnUgaTUvCe1zOgwTqTkOW2UE5tyAwPMEkab+k1oLWEdLasoYM5QlO8IMHPp0k7eNDTMs23IwGJx7O7JbAKrmRX2JCyB6axV03AoNvKYRR3uR5H1mr/atbVh7Xs1Cu4d2CiFMvl0Eak98mOnUiaWIcyTybXQAgjkatybSs0w3VlngyB8VhLib+1UeqsCJj4V6Z2mXNiMMvjcPwQV5Xf4j7PJkJDr3wQfdM6Hz0rW8A4++MxGHFyMyC5LDTOGWASOR05aeVC90XPDJLUG+2vYRMbN22Ql+IJPuXABADRqGAAAYctCDpHm6cNv4RvY4i06SSEYiUO5Khx3TzOhr32sX+kvjv6thgiwXukrrrCLBc+eqr+9PKmyVqjPGTTs8oxd1F2M+FBcfiCykddAKPYtFYz11rPEB7m8IupP8AhG5FBBWx05OjU9jOCIr27rlWds0LBPs1KNBYby0GOUDzjtD04vcsMChIcHM500YrkVIMg5UMebNSpjKWCTVh/i2HUgaCKH3cOgRYjbY9OVXsZiA9tXGzKD8aDXLoP/LgjqNW/CskbZpddiRUXIY8fSsndsZXKxtH0FaPE4nLbdoytl0HidBtQrCYQsPaO0ljHj5zETT4bW2JyQ1NJHqHA+DthuG94Q7FbrjmDmQqPRVX1mpP0h8NR7YxDvcQoAvuB1YFjAKyCpnmDzGho9xXEe1wT3N89jP8UDVmu3naYPa9jackkgs4mNPsjwnc/XWg1XJMVDDKTdLgwWO4WF8fSKt9nuEe2urbCkTuwAJAAJJ+XzFBsNi3zZGG+3+3pXpH6N3w5zt7RTePdyaiE0JifenSY2iryS0xthSpL5h/s9wS3gg4RLz58s58hAyzsFyxuetZvt3x72VprCgZ7jSzc1QKoga/aMjyDda9AOU8l9a8P/SFjA+MuRskIP3VGb+bNQYJqbYjgH3r086p/rrWpy7NOnRuoqDDXO7ry28qRatFUdJtZIJkuGSDvJ8a9e7Ddo72Is5GusXtMysCAz3EiU1J81nfu146LkKfATWw/RVxRbeKLP7ots7fuiJ/mq9Noy5qjSI+1mIc3bpuB0KEhQ472UxlGw3hdQNd9dTUNpW9lbidEUaeCih/afjRxd18QR7xzAfdWIVfRQBTU4vGGVAe/wC4PAAan+H61TjsTdbM5YxWf2hOuog8xqFEH0HxrWdgrsY6wOTZ1/ln/wDmsDhxH1rQdjOLC1jLNxzCi4oYnYK3dJ8gGn0qnGw5yccdPue9ca4tbwttrtxiRsqiJZtdF/EnTSvD+2nHbuLf2j+6shVGyqTMeJ6nnHLatX+k7iefFrZB0toJHRnAY/y5KwPELuW23w+Ok/Or4ewzD00Xicn/ACV8XxXMuS2NwAzHy1A/OoME2TU6xqNN2Huz/hB1jqPGosJY7s9Z+A0q3lqrrZDMXT6kpMZyknz8SaVV8fdgADmfp/5rlSm9w55YwdGivcQIJQhRBMQoVSOmVQAPQV049Gj+71+PzqHiVoXVzWzNwe8hgO3QrGlw+UHwFD8BiJOQ6Nynn4edVLGqtGKMpQemRBxvFF3y7KvIdY389as4QEW1bWPkTJ+JGX+ahnELbJcbNzMg9QauYZZQN9zu77gsCIHWSZPSPUq9qoLC/c7PTcdxn2PB0cGWe2LKTG+d1JPUhEY+leXfr7O/eMn66Ua7QYw/2fhbcz/eYhvLKUgentGHpWRR4cHxqoRWl/UCGSUJ0ntYUYwQw3Uhh6GSPUU/hGNa0/tUPuMGXzBn6aHzqMmuKuW2wnTUx110qluqZpy47epeGe/4XiSXsO1+1GzZQwAhhtm1jmDvzrxnjmAW7isiAhrj666Es0s2u3M1uv0bOXwd227TIVkC8syFQSTzzJB8hWM4xiPZXjcjULcj/MyOqn+Iis+OOiTUTHjUXHcyeFOvQEbVK9V8Me96VKxrXLk04H7PqNvDu+Zj+vhRfguHZbeJdAWIw9wGIGVGyhmPWNPjQotG4ncRMbggHToSD6USw924lm+ER2zW1R2UEhFNxHJaNgfZldfvVEJzL3fQG4Y6EedL2cOCBpBPgNDTMMTMkGDpPKdY+h+FWV2qPZjsSU4r5EgXy2ofbuRVm48A+VVLFh291SdY0Gk+dSIvqKtJGgTiVy/ce7dbM7RmbrlREB84UVBxS53AOpn4TVfhTaN5/wBfSpsdbLxBGhPwoP8AY3Qt9NS5ZYwlsd1SYAAJJ0GgE68tT/52qTHWsu0+o/rXnED1ruBwyv3XmG3hguUTIPeBkTpFMxOHVHKqW5AyNJidOvLkPnRUqI3NNRT22BHEdCo8D+FKm8SYF/KlRLg53Uv/ACMN3EDChmIwjSSDJJn1q9Zfl0qQmkqTR154o5FbQCv4i40K5Jy7TuPXnRXhdlhbeZ1GqxyG2x330iq2PSHR/HX01opbv5Li66MCPkT+Ao3LbYwRwqMpNviv7Kt+x7S1lB7yklRO8xmHgTlHwFAGrdFUbUgE9efxFN/VEaJUHWROuvWhjkoXkx29SAtjht57ftBbbKBmJMDSNwGIJ9JqpePdjaYHzrWYrE3PdJBU6kAQT5KIBNDbHDLZb+8JZddAcsSDBza7SDrp1qozfcPXJxcXyaPsnxB8NbtWbaFy8uGQEtlZyCHUTlVTJk6aTpEkN2ntF3bKpO+wq5wx3s3FW27Qyss7MUMd1o31AkbGAfAFuKcOBDC2xBZizFu9yAjlA0o3cmn4EJKKafc8vFsoxBBBjn0pE1uP/SmeTdfbYLoddpPSu/8ApKyAD3t+bafTWj02VHIoqjFWFzMBXoHZ6wLOGNy4e5d7txdYNs9xNBqdWPo58KYnZq1EyfASvXwG35UT/VQLeW4MyKsZeoUabeIFT022rByZLToyXEcAhJRGkCGttEEqdVn6HyNAmQqSrCCNxW6xOFVraXfZnRVCohJIBIETzGpOtJODreVs6lNSve0YgbMDynlUlBxbQzFm2Xky2C4Qbi53OVDt95h4dB41Ni8bbtL7NNxoFH1J5eutXe0wNoJZBgnaDHcAgbbakD901i2WCR0oUr5DyzdWi1w14aOR/CTRFVmPH6Deo14abTamSQB5TBb4RVgDpz08gKqTTexu6SMlCpDlaO9t0quzxLEzA5/SpLjyYGw0qnj3gBev4VUVewzPNRi34Bz6mTSrppU44VhHB3ZA/hPpt8qvKaDYFu9Hr8BRYHSkTVM7PS5NUEyLGWyywBJkH+vjUWJvMrWtwQAfWY+oNWUNU8brdXwCj5k/jVwfYX1KVavLSPRP0alLj4i3cVXDqjwwBEqzAnXb3xWVv8fVXcZO5mbIV+5mOWQd9I1mjXYbC31uPeFt/ZmxdUuRCmVzLlJ97vIu01i8Hw+5euBEHiTyUdT+XOqiou2zJllLX7O4dsYgXIyMCDuCQBPrBU0QGCJfR5G3d2MaSD6U+xwQW7YUEESRH2gYHfM6GZj0q3bwjWlLTtyJB+X+9LXudRZq9LSk5cvt8y3geFKpzAEkfLyoybWggUIS5dVlU23gkDNkYTpqAJGXmZBO1WgjyQZkeKn8CfiaP112ET6Rr9Ul9B/EFiMxUKxABbKJP7xHXbeqt9spysrPl0m2quPQAyB5gbU82Wn3viY+lWrXD1cd4AwZ6xtp3iYkUyOa3uhM+mil+rb+Ctex1tEVwpAMQCoVttA3jUB4oHVgDE6TExynU+NX8VhSIzBGAU6sB3F6CQTt0qti8BbyFjCSCFdlHLvZRsZOunjTISbfgytxp73X9k/CsSpHswSSojaBVjFDY+dVuCYW1kD21InkTJGvzopibcrVZ1qgx/STSyRa4/7MH2hyYiybqA5rFxkeYmJCsdPHKfKaynDLHtMQs7A528l1+sD1r1NcKvfQr3GGoygKc8hgI1nrPWsEmAbD+1De+zlFPVQdG/ekH0rNjyKml/6zfmxS2vycxL5nJ9B+NV7jwPE6DypxOp6D6VAozGeXKiRu/TFRR1BQ3FPLnw0om5gUIOpmmQ8mDrZUlE6iEmAJPQUq13ZvheVfauO8w7oP2V/M0qGWVJmOOBtcmPwph184+OlFXblQzB25aeQ1/KiK9aufJr6O1F/ySIflSwYzYu2IBm5aWDsZZBB8Na4Kjwj5cXbMEgXLbkDcgMrN8gaqK5J1b9qXzPoHGXUyMrGEKlGga6gggHr08fKsFg+FrZAS2Rlg5yR33bSGkHQATpB/NnEO0DXHJGi/ZGYaDz5nxqC1xHWWPoDPyFYseLJw+GFgjDFHU95fIOWMKBqQOoHTxrt+xOUjRlMgkAiYIgjfY1FwrHJcFwtIyhYnxzTt5CkuLEZpgeNdHHBRVIxZpznO3ydTCMzi5cMECAFZsoHU7S2+vQxVbHh1uLlYqJ0IjU8pnfUx61M2KY+6Pjp+FR3gW0PgfUf70aUb4Fu0dtcQQ/8AFIUmNY1Ug76a8wY8Kns22FwIWUkxBzHIykZgcw2BGs+NX8NhrcI2RCTqSdT9NKoNZVkMjKUJEjdtwAI1mjlTp0L19jl7H9/Mtsm2CATm7xBMZlWNR4TMa76Vaw1lbuf2iyE28zIkSDO1BmxYFsiIMxEHU6fgflUHEOL3La5rbROkEAgiPEaH4UUIamkhc3GPu8B7Duq7CnviRBoXgL5a2jE6sik+ZAJqw1Lkq2Gxm37gJxjjNxGVU0J5QDPxmspxXGMbks2aTv58603G8G576CTt4gGJ19B86z93gVxhz01EnUnxrNHEo8I3/EylTbKjCYUeZNdYgaCnW/d6Hn18qaBFQ6d7WQY1oWKsdnuGe0fO47i/zNyHl1+FOw3CXu3IaVUaseeuwA6n5VplyooRBAGgAqpT0qlyc7L/AJJ6uyJmaaVDbnEtcqatzO4Hh4n+vLlCsbe4t5op0ZDAiQfP8BV1RVbh47p8/wAKtO3KmS5NWDbGmcZufoKuYe2FJaO+RE9B0FNwtj7R9KJYLANcOmUf5mA0qpS0oVL3yvsv+SNFPMUVwOABEmdeX/muWMBJCgzO5j6T4VocPhYqYUn7gOpyOKUU9yp+rEW3yTPd28yOXnTXYKqsSBoInrFW8ULuU+xMEe9AnSPd1B1mOVYrE27lxyX2G7liVXXT3ZPXQCtFGKORqTZsLOIzDMGVtYIEyD4yPpNda9r4elAMHeVbTKjFcp95gWzcpkR02I5iuW2IRl9ooZzJfIZBbSdDvEb+FRpl2pGivuwUMpBEExNUExTEZcsAmY8etUMPiikL7QuBp3l0jz0NWcPjkmckcp28tzUUXW4qMeb+hfxlshlVQMoX03I0+AoHx+Qi6Dc845VpHuBlBFUOP8GK20ve0QmMjgSwV52DfXbbxqLJ6bTRPT1Jp8AbA8eZURfZiAoE6kwBEnptvWjwmKFxQw08DuP6mslZwwDRbHe3La6bER0IIOm0VpuD4JlAnagUpSdvgNpJUgjkBqJ7Qir4s0C4sLmcCdD9lZJPjqIHnrRS2RcFbM7j+Hn2rm2VKN3t9mPvDbXXX1pW8CoIJJJGvQTV02jqQNuXvMPEnYVx7Zn/AHH4Vmk3Z0I5Go6Sndu5bxuKoUP76gQJ+8Om3zqhxfjGpt2z/mbp/hHj1NR8X4imbLb7xB7x5eQPM0GzFiSedNUU6bMTm1aXBo+yeFN2+F5AMzeAiB8yPnSrQdmMF7C1LA5ngnqB9lfTf1pVTaspRMJw8wref4UW4Xw57hzZTrqPLlRHsj2aNxRdur3G1RT9ofeP+Hp1323236uttdABGwomkrkx0cjklCJlxw3LAO/OrVvCgRp/X50Yw+DFwMc6qw1htAR4Hr4VElqTHjH+9c6U3OX88HYxQhjg13XI/h2F+16D8fn9KI5KlS2AAOQ0puJxCW0Z2IAUSf66mupjhpikcDNkc5tvuCXw1g3GtuGa4QXUI4DieeVtInnNCMTwe47zkYDXVolidyYPlRDsxiGJvXLhYXXcZkI0VcoKR6Ej02nWtCBO4polmR4ngxZsyN8yyem5+oFCrTW8xJOskTJ2g6aHwFb7FWlKkd0g8tD6ET/UUEx3BbcybQ1+6vQwdhpBrVizwgqkkZsmCc5XFsrJgLS4N8QBLlyEaW0XOqDTY+651H2qG4ZLl0FVdUjcwZM9Y32o+3CB7H2aq2WZjM0bzqF0B561DheFi3AVQWYxq8RG2h1PzPhSsmfFKLVK72Gww5oyTt1W5PhsBlUAuDpuPwFLE8IF1RbLHIGzZZjM0RmPXbyojhBbyrD765THePLKeegPw9KtINazJJuzQ5SS0g/C8HtoBCjSiSWAKmC08LR0LsiFuuPhwRBAI8RNWAKdlqEsG/2ba/ZqPIAfSvIe1WAaxiblslis5kkkyjaj0Gq/u17eVrD/AKSuFZ7SX1Gts5W/yOdD6NH8RqmgtTPLgKP9lcD7S8HI7tvvebfZHx19KD2rJZgo3JAHmTAr0DAYZbKBEGg1J5seZNKm6CirC6vXKgFylShlmpFoCqWItl9BBjfUbmr+KeB4nQUNzEbGKDqcsV7X9Tb0HTyf+RUvFqyBrZBggg9OdWcBZklumnqd/l9ahy+Gv1orYt5VA+Pnz+dK6TEpScuyNP4hlccaj3fJ3LUN/AWnKs9tGZfdLKCV8idqtRXCa6hwWNS2BpEU+KyvEe0LHELas+6jDORHfIOqeA5H1o1i+Ii3bNxyBA57TyHqdKJwaq+5SdlrEbaadT0nafWomuWrdvvXF5E85PWIJnfrvXnGL7SXGU5rlwtzGVMs9InaiPBOIYK9C3E9m8akmEJETDTpryNBl6d8tjYZFFcGlxHHLJbKrM220jpOhinLj7REFXB8oE9djHxNVxwfCsdCpP8AmBP1qdeztnfIPhSPQQz1/kVluS4Klo1BzRpEQZETJE89ztOhfCtNKxw62ogKBVi3YA2psI6VQmc9TsnUU6KaKfRgCFOps12ahDsVXxuGW4j23Eq6lWHgwg1NNcJqEs8cscBuW7neIUpcjWe9kbcDkDGlaXNRbtNhocXB9runzG3y/wD1oExpE+RseCytyP60pVXmlSwzaYq5mbw2FVWFSNTDXLnJylbPTQgscUlwibCWpaeQ+vKr8UzDW4UdTqfWpK7HTw0wSPO9Zl9TI324RyhnGMcLaE89gOpohecKCTWZW22IuyZyL8KeYyTgvD8zG8w1b+pqx2hwqvZbMSAsMCOTDbffePWiyWwBAoT2nQGzLXVtqrAktMHcAaa7nkDtRRl7k2DO9L08nmeMcEwwOh6KCfMxNWuG47D2z3rLnSCfaT/KV/GrN21d5ajqNvnVRnce8CPMR9RTmtX+wj1ppboO4fF8PuaMXtk/eAI+IBoxheAWmGaziHjqjKY/hjWsYlzwHwq1gHOdRbf2bMyjMNI1E+flzoXhVXZS6l3Vf2b3BcOuWyCcS7gbhtZ8JJMelXcbjBbtvcIkIpaBzjlUJxFDuI3iyOsSCpEddNqUjUUuF9sw7lbiZZZQmXUAHQ5iTy01A9Kn7PcTi9iLLsT/AHjOhJnTNDD6aedefYkZHI6GpMDjCtwXJ2aT4g7/AFNaJY99uGhaltuexJeBqQPWe4dip50YtPWYYWppTUYanTUIVeJYX2ltk5xK/wCYaj8vWsNHUn8fWvQprGdoMN7O6SBo/eHmfeHx19RS8i7hwYOmlTZ8aVKGm8/VX+7HmR+BpDBtImIkTBrr8UPK2T+8oprcU/7b/FP9VIjDAnd/2dKc+rkqov02aHNxb/tP8bf+umLxUfs3+C/g1almh5RgfSZvDCFxARBEiobdpUEKoA8KrHiq/cf+EfnXDxNOj/wGi9WPlfcH4XL+1/Ysu9ZTtnw69fRBaGYKSSsgEkwAROmgzfGtB/aVv/H/AAN+VI460fvfwP8A6anqx8r7lfD5f2v7M8ox/CMUYBsvA2AGYfKappwvED/lXB+435V7CcVb6n+BvyqM3LR/+LflVa4+UT0Mn7X9jyQ4fEL9i4PNHj5iKJcEa611FK6gz7pB0BM7RuK9ID2/6U/lUi3rfX5H8qJZV+7+xb6aT5i/sULIfmKe4q97VPvCoLzKftD41NcfJfpTXZ/YwPH7AW42oG0ToNuv9c6ETBrY9ouGm4ue3qw0j7w/OsXew9wADIykEyMp+sefxrVHOtKFPDKzbdnsSTbQncSvwMD5RWtwzyKxPZmyy2gGkEknXeDtWuwTaUiUlbCWN0FFNOmoEuDrTvaDrQ6kFofgloV2jwue0WG6d7937Q+Gv7tElcdaRIOh2PLrVumgaaZ53mrlWeI4b2Vx06HTyOoPwNcpA01rUxqcTTGNcU9YMY0ynNTDULOE1yaTU2oQdXKRNMqEHTXJpGm1CHaVcrtSyCmuzTaVSyUIrTctOpVNRVDclSLTa6DV2XpQ8GnBqjBrs1NRNKL1vFKAFa2GHwbxgimWccfa+zIhWWU66bqTz61VBqvjiQouL71shx4ge8PUTWzBmakkzB1XTRlF1yS9p8NIW4OXdbyOqn4yPWlRWVuprqrAHzGhFcronn6BJs40c7Z/cb/VXCuM+7b+DfnRkcatdDTv7WtdflSPQx+DUutzLuACuM/Z2z/FXIxn7K3/ABN+VaFeI2j9qnfrtr7wq/h8fgv4/N5M0Ti/2Kfxn8qWbE/sB/H/ALVpv1u394V326feHxqvhsfgL8wzeTL+0xH/AE384prXsQP/AGx/jWtULi9RXc69RU+Fx+C/zHMZE4nEf9M38QprYq+P/bN8f9q1+YeFLSp8Lj8E/MspjDj7/wD0zfP8q4eJXRvhn/m/01tNKWUVPhcfgn5llMV/a1znYb+b/RS/tgje0w9T/pra5R0pptr0FV8JDwGvxOfgxg42P2bfEV3+2l+43xFbA2V+6PhTGwls7op9BVfCQCX4pLwZL+20+43xH505OMqdrbnyg1qTw+1+zT+EVC/CLJ3tr8Kp9HEJfij8Ge/tcfs3+Vc/tj/tv8qPngdj9mPnUTdn8P8Asx86nwkS/wAz+TAp4z/22+IprcbAHet6HSMwJ18KLt2bsfcrtvs/aGwI9ai6WKJ+Ypjez9/uNb+4e7/kbVfxHpSq9h8IlrvcyIk9OmlKtJy8souTcQDXDSpUAJylNdpVZQ3OaWc0qVEQ77Q07OeppUqog8XD1NOF1vvH41ylURB360/3jXP11/vGlSqyEgx9z71SDHv1pUqhDg4jc6j4VIvEbnUfClSqyiZcc/h8KkXGN4UqVQghimnf05VKMQ3hSpVCHTeNRXcSwGkUqVQsE4jFMx1NKlSpLDP/2Q==" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+
+                <h1>Behaviour party was awesome! We had lots of fun playing with slime, face painting and more!</h1>
+            </div>
+        </div>
+        <br><br><br><br>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#fair"><span></span>Country fair<i class="fa fa-sort-desc"></i></div>
+        <div id="fair" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"> <img src="https://www.naroomanewsonline.com.au/images/transform/v1/crop/frm/aTJEDiJUPWhEafKMkrrWW6/75b935f5-103c-4669-ac64-92456817f471.JPG/r0_231_4512_2998_w1200_h678_fmax.jpg" class="img-responsive img-thumbnail"> </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+
+                <h2>The annual Country fair is the most famous fair in the city! Lots of slides and yummy food to eat!😋</h2>
+            </div>
+
+        </div>
+    </section>
+    <br><br>
+    <hr class="width=100%;" id="line">
+    <br><br>
+    <section id="fac">
+        <h1 id="tit">
+            FACILITIES
+        </h1>
+
+        <div is="cool" class="travel_mainDiv">
+            <img id="bok" class="img-responsive" src="https://www.scisdata.com/media/1809/1a_emma-suffield.jpg?width=1045&mode=max&upscale=false">
+            <h4><kbd>School Library</kbd></h4>
+            <br>
+            <h5 class="text-success text-left">School library has alot of cool books and has a trophy shelf</h5>
+        </div>
+        <br>
+        <div is="cool" class="travel_mainDiv">
+            <img id="bok" class="img-responsive" src="https://images.squarespace-cdn.com/content/v1/59a1564a6b8f5be647f05033/1538705089470-9XD3XPWP89PA6YEGXH1T/Caravonica+State+School+Stairs.jpg?format=1500w">
+            <h4><kbd>School Multi purpose hall</kbd></h4>
+
+            <h5 class="text-success text-left">School Multi purpose hall is used for playing basketball at recess and used for sports lessons. It has a stage and a music room.</h5>
+        </div>
+        <br>
+        <div is="cool" class="travel_mainDiv">
+            <img id="bok" class="img-responsive" src="https://c8.alamy.com/comp/2AWATGA/colorful-children-playground-park-childrens-slides-and-playground-made-of-plastic-material-2AWATGA.jpg">
+            <h4><kbd>Playground</kbd></h4>
+
+            <h5 class="text-success text-left">There are 2 playgrounds in the school. They are very fun and colourful.</h5>
+        </div>
+
+    </section>
+    <br><br>
+    <hr class="width=100%;" id="line">
+    <br><br>
+    <section id="new">
+        <h1 id="tit">
+            WHAT'S NEW
+        </h1>
+        <br>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                <h4>Summer holidays are getting close!</h4>
+                <img id="sum" src="https://image.freepik.com/free-vector/summer-holiday-banner-design_38409-1849.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">Students are excited for summer holidays. They can't wait for winter and spring to end. These summer holidays might be a normal summer holiday after the corona-virus infecting everyone's summer last year. We hope that corona-virus doesn't invade our summer this year. </p>
+            </li>
+        </ul>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                <h4>Plovers invading our oval</h4>
+                <img  id="sum" src="https://live-production.wcms.abc-cdn.net.au/f7fef347af16432e59f5cfe3568ca340?impolicy=wcms_crop_resize&cropH=2000&cropW=2997&xPos=1&yPos=0&width=862&height=575" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12"> At the end of last year, we had one of the most terrifying events happening at our lunch time. Students saw birds on the oval so they went to look at them up close,They didn't know what would happen to them. The birds flew away then swooped the students. The students were not hurt. This was the 1st Plover attack. The reason they swooped us for a few weeks because they were trying to protect their chicks. In the present, their chicks have hatched which means they don't attack us also in other words we are kind of friends.   </p>
+            </li>
+        </ul>
+        <br><br>
+    </section>
+    <br><br>
+    <hr class="width=100%;" >
+    <br><br>
+    
+
+
+
+
+    <section id="contact us">
+        <hr class="width=100%;" >
+        <h1 id="tit">
+            CONTACT US</h1>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.467034342519!2d145.6928535148689!3d-16.852775988401053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6978659b6c2a0865%3A0x26abf1a850e95343!2sCaravonica%20State%20School!5e0!3m2!1sen!2sau!4v1627783710733!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div id="details">
+            &nbsp;&nbsp;
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjxdPHJ7EcFywvuQF94x0_yho2HTu-1Qwxaw&usqp=CAU">
+
+            <div class="contact_1">
+                <h3>Ms Davis</h3>
+                <a href="mailto:officestaff@caravonicass.eq.edu.au?Subject=Hello">
+                    <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;officestaff@caravonicass.eq.edu.au</h5>
+                </a><a href="mailto:officestaff@caravonicass.eq.edu.au?Subject=Hello">
+                    <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;4037 4333</h5>
+                </a>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+
+</body>
+
+</html>
